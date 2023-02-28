@@ -1,0 +1,224 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --secondary-accent-color:#FFFFFF;
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #2F303A;
+}
+
+body{
+    font-family:"Roboto","Arial",sans-serif;
+    color: var(--primary-text-color);
+    margin: 0px;
+}
+li {
+    list-style: none;
+}
+.container{
+    text-align: center;
+    width: 1200;
+}
+/*header*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav li{
+    padding-right: 50px;
+}
+.heder-menu-list{
+    display: flex;
+    align-items: center;
+}
+.header-contact-list{
+    display: flex;
+    align-items: center;
+}
+.heder-logo{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1;
+color:var(--accent-color);
+text-decoration: none;
+}
+.header-menu-item-current{
+font-weight: 500;
+font-size: 14px;
+line-height: 1;
+color: var(--accent-color);
+text-decoration: none;
+}
+.header-menu-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1;
+color: var(--primary-text-color);
+text-decoration: none;
+}
+.header-contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1;
+color: var(--secondary-text-color);
+text-decoration: none;
+}
+.header-menu-item:hover,
+.header-menu-item:focus,
+.header-menu-item-current,
+.header-contact:hover,
+.header-contact:focus{
+    color: var(--accent-color);
+}
+/*main*/
+.baner{
+    background-color: var(--secondary-background-color);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-baner{
+    width: 696px;
+    margin: 0px;
+font-weight: 900;
+font-size: 44px;
+line-height: 1;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.title-button{
+font-weight: 700;
+font-size: 16px;
+line-height: 1;
+color: #FFFFFF;
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+/*main section-features*/
+.section-features li{
+    width: 270px;
+}
+.section-features ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title-oculto{
+    display: none;
+}
+.title{
+display: flex;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 14px;
+line-height: 1;
+color: var(--primary-text-color);
+
+}
+.description{
+    display: flex;
+font-weight: 400;
+font-size: 14px;
+line-height: 1;
+text-align: left;
+color: var(--secondary-text-color);
+}
+/*main section-a-b-c*/
+.section-a-b-c ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*main section-peopleteam*/
+.section-peopleteam{
+    background-color: #F5F4FA;
+}
+.section-peopleteam ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1;
+color: var(--primary-text-color);
+}
+.people-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 1;
+color: var(--secondary-text-color);
+}
+/*footer*/
+.footbar{
+    background-color: var(--secondary-background-color);
+    height: 252px;
+    text-align: left;
+    padding-left: 215px;
+    padding-top: 60px;
+}
+.footbar-logo-link{
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1;
+color: var(--accent-color);
+text-decoration: none;
+}
+.footbar-contact{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1;
+color: var(--secondary-text-color);
+text-decoration: none;
+}
+.footbar-contact:hover,
+.footbar-contact:focus{
+    color: var(--secondary-accent-color);
+}
+/*portfolio*/
+.portfolio-list{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-list-card button{
+    border: 1px;
+}
+.portfolio-list-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+}
+.portfolio-button{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1;
+color:var(--primary-text-color);
+cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--secondary-accent-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-text{
+font-weight: 700;
+font-size: 18px;
+line-height: 1;
+color: var(--primary-text-color);
+cursor: pointer;
+}
+.portfoloi-function{
+font-weight: 400;
+font-size: 16px;
+line-height: 1;
+color:var(--secondary-text-color);
+cursor: pointer;
+}
+
